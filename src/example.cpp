@@ -1,29 +1,3 @@
-# SMBV
-
-Variant-based state machine.
-
-## How to
-
-```bash
-
-mkdir build
-cd build
-cmake -DSMBV_BUILD_EXAMPLES=on ..
-make example
-./src/example
-
-```
-
-## Basics
-
-```cpp
-#include <smbv_machine.hpp>
-```
-
-And use:
-
-```cpp
-
 #include <array>
 #include <iostream>
 #include <smbv_machine.hpp>
@@ -118,10 +92,3 @@ int main() {
 
     return 0;
 }
-
-```
-
-## Linking
-
-This is a header only library.
-
